@@ -1,6 +1,8 @@
 body {
     background-color: black;
     background-image: url(mike-kenneally-TD4DBagg2wE-unsplash.jpg);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
 }
 
 .container {
@@ -9,19 +11,23 @@ body {
     background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
+    padding: 30px;
 }
 
-.cafe__title {
+.cafe__title, .menu__title {
+    text-align: center;
+    font-weight: 900;
+}
+
+.icon {
+    display: block;
     margin: auto;
-    text-align: center;
-}
-
-.menu__title {
-    text-align: center;
 }
 
 .item p {
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .drink, .dessert {
