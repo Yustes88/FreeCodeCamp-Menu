@@ -14,9 +14,19 @@ body {
     padding: 30px;
 }
 
+.cafe__title {
+    margin: 0;
+}
+
 .cafe__title, .menu__title {
     text-align: center;
     font-weight: 900;
+}
+
+hr {
+    background-color: brown;
+    border-color: brown;
+    height: 3px;
 }
 
 .icon {
