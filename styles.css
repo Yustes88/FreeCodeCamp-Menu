@@ -16,6 +16,7 @@ body {
 
 .cafe__title {
     margin: 0;
+    margin-top: -17px;
 }
 
 .cafe__title, .menu__title {
